@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Contato</title>
+    <link rel="stylesheet" href="assets/css/geral.css">
+    <link rel="stylesheet" href="assets/css/normalize.css">
+    <link rel="stylesheet" href="assets/css/cabecalho.css">
+    <link rel="stylesheet" href="assets/css/conteudo.css">
+    <link rel="stylesheet" href="assets/css/rodape.css">
+    <link rel="stylesheet" href="assets/css/formulario.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto|Slabo+27px" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- cabeçalho do site -->
+    <header>
+        <nav class="menu">
+            <div class="box">
+                <ul>
+                    <li><a href="#">Início</li></a>
+                    <li><a href="#">Séries renovadas</li></a>
+                    <li><a href="#">Séries em destaque</li></a>
+                    <li><a href="#">Novas séries</li></a>
+                    <li><a href="#">Contato</li></a>
+                </ul>
+            </div>
+        </nav>
+        <div class="nome-site">
+            <div class="box">
+                <a href="index.html">Minhas <span class="nome-site-mod">Séries</span></a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="box">
+            <section>
+                <h1 class="serie-pagina-titulo">Contato</h1>
+
+
+                <!-- Informações sobre a série -->
+                <div class="serie-informacoes">
+                    <div class="serie-informacoes-capa">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmY7Dhs9KcR1qpDbKYeyKmg-ezTvxN2ij_nnBHuUlIVYjuB4SR" width="200"
+                            height="300  ">
+                    </div>
+                    <div class="serie-informacoes-texto">
+
+                        <p>Somos um grupo sem fins lucrativo para mais informações cadastrese nos campos abaixo e deixe um
+                            comentario com duvida e sugestão que ficaremos felizes em responer.</p>
+
+                        <form>
+                            <div class="linha-formulario">
+                                <label for="nome">Nome:</label>
+                                <input type="text" id="nome" name="nome" placeholder="Informe o nome completo" required>
+                            </div>
+                            <div class="linha-formulario">
+                                    <label for="email">Email:</label>
+                                    <input type="text" id="email" name="email" placeholder="Informe seu email" required>
+                                </div>
+                            <div class="linha-formulario">
+                                <label for="idade">Idade:</label>
+                                <input type="number" id="idade" name="idade" max="120" min="0" required>
+                            </div>
+                            <div class="linha-formulario">
+                                <span>Sexo:</span>
+                                <input type="radio" id="sexo_m" name="sexo"><label for="sexo_m">Masculino</label>
+                                <input type="radio" id="sexo_f" name="sexo" checked><label for="sexo_f">Feminino</label>
+                            </div>
+                            <div class="linha-formulario">
+                                <label for="estado">Estado:</label>
+                                <select id="estado" name="estado" class="estado">
+                                        <option value="estado">Selecione o Estado</option> 
+                                        <option value="ac">Acre</option> 
+                                        <option value="al">Alagoas</option> 
+                                        <option value="am">Amazonas</option> 
+                                        <option value="ap">Amapá</option> 
+                                        <option value="ba">Bahia</option> 
+                                        <option value="ce">Ceará</option> 
+                                        <option value="df">Distrito Federal</option> 
+                                        <option value="es">Espírito Santo</option> 
+                                        <option value="go">Goiás</option> 
+                                        <option value="ma">Maranhão</option> 
+                                        <option value="mt">Mato Grosso</option> 
+                                        <option value="ms">Mato Grosso do Sul</option> 
+                                        <option value="mg">Minas Gerais</option> 
+                                        <option value="pa">Pará</option> 
+                                        <option value="pb">Paraíba</option> 
+                                        <option value="pr">Paraná</option> 
+                                        <option value="pe">Pernambuco</option> 
+                                        <option value="pi">Piauí</option> 
+                                        <option value="rj">Rio de Janeiro</option> 
+                                        <option value="rn">Rio Grande do Norte</option> 
+                                        <option value="ro">Rondônia</option> 
+                                        <option value="rs">Rio Grande do Sul</option> 
+                                        <option value="rr">Roraima</option> 
+                                        <option value="sc">Santa Catarina</option> 
+                                        <option value="se">Sergipe</option> 
+                                        <option value="sp">São Paulo</option> 
+                                        <option value="to">Tocantins</option> 
+                                </select>
+                            </div>
+                            <div class="linha-formulario">
+                                <label for="mensagem">Mensagem: </label>
+                                <textarea id="mensagem" name="mensagem" class="mensagem" placeholder="Digite aqui sua Duvida ou sugestão."></textarea>
+                            </div>
+                            <!--<div class="linha-formulario">
+                                <input type="checkbox" id="termos" name="termos">
+                                <label for="termos">Aceita os termos do contrato?</label>
+                            </div>-->
+                            <input type="submit" value="Enviar" class="btn-salvar">
+                        </form>
+                    </div>
+                </div>
+
+                <div class="linha-formulario">
+                </div>
+
+
+
+            </section>
+        </div>
+
+
+
+
+    </main>"></textarea>
+</div>
+
+    <!-- rodapé do site -->
+    <footer class="rodape">
+        <div class="box rodape-conteudo">
+            <span>Siga o Minhas SÉRIES no</span>
+            <span>
+                <img src="assets/images/facebook.svg" width="33" height="29">
+                <img src="assets/images/twitter.svg" width="33" height="29">
+                <img src="assets/images/youtube.svg" width="33" height="29">
+            </span>
+        </div>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,47 @@
+.campo{
+    border: 0;
+    border-width: 6px;
+    border-style: dashed;
+    border-color: rgb(105, 101, 101);
+}
+        .linha-formulario{
+            padding: 10px;
+            padding-top: 10px;
+        }
+        .linha-formulario input[type=text], .linha-formulario input[type=number]{
+            padding: 10px;
+            padding-top: 10px;
+            border-radius: 5px;
+            border: 1px solid black;
+        }
+        .estado{
+            padding: 10px;
+        }
+        .mensagem{
+            padding: 10px;
+            padding-top: 10px;
+            border-radius: 5px;
+            border: 1px solid black;
+        }
+        .btn-salvar{
+            padding-top: 10px;
+            background-color: rgb(11, 168, 11);
+            color: white;
+            border: 0;
+            text-align: center;
+            padding: 10px;
+            border-radius: 5px;
+        }
+        .btn-salvar:hover{
+            padding-top: 10px;
+            background-color: rgba(11, 168, 11, 0.733);
+        
+        }
+        .paragradoDescricao{
+            margin-bottom:40px;
+        }
+        
+  input[type="text"],input[type="number"],input[type="email"],select,textarea{
+
+    width: 100%;
+  }
